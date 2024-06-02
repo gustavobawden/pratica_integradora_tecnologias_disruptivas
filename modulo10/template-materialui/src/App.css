@@ -1,3 +1,4 @@
+html {background-color: grey;}
 .App {
   text-align: center;
 }
@@ -23,6 +24,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.chite { color: rgb(255, 255, 255);}
+.clack { background-color: black}
+.crey { background-color: grey;}
 
 .App-link {
   color: #61dafb;

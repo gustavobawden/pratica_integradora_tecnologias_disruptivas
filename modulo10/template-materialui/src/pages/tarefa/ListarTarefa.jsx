@@ -84,13 +84,13 @@ const ListarTarefa = () => {
     return(
     <>
     <Card>
-        <CardHeader
+        <CardHeader className='crey' 
           title="Tarefas"
           subheader="Listagem de Tarefas"
         /> 
-        <CardContent>
+        <CardContent className='crey'>
             <TableContainer component={Paper}>
-            <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
+            <Table className='crey' sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
                 <TableHead>
                 <TableRow>
                     <TableCell>#</TableCell>
@@ -133,7 +133,7 @@ const ListarTarefa = () => {
             </Table>
             </TableContainer>
         </CardContent>
-        <CardActions>
+        <CardActions className='crey'>
             <Button size="small" variant="contained" onClick={handleOpen}>Criar Tarefa</Button>
             <Button size="small" variant="outlined">Cancelar</Button>
       </CardActions> 
